@@ -1,7 +1,7 @@
 <?php
 
-	include("php/pages.php");
-	include("php/head.php");
+	include("pages.php");
+	include("head.php");
 	
 // begin van de site
 echo "<!DOCTYPE html>
@@ -11,7 +11,6 @@ echo "<html>
 echo $head;
 echo "
 	<body>";
-
 
 // print alle pagina's	
 pages();

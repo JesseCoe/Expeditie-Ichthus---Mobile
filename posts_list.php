@@ -1,5 +1,7 @@
 <?php
 
+include( "connect.php");
+
     /* fetch associative array */
     while ($obj = mysqli_fetch_object($posts)) {
         printf ("%s \n </br>", $obj->post_title);
