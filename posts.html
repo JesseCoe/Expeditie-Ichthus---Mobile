@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Posts</title>
+    <link rel="stylesheet" type="text/css" href="css/spoiler.css" />
+    <script type="text/javascript" src="js/spoiler.js"></script>
+</head>
+<body>
+	<h1>Posts</h1>
+    <?php
+    	include("../php/posts.php");
+    ?>
+	<div class="spoiler">
+    	<input type="button" onClick="showSpoiler(this);" value="Show/Hide" />
+    	<div class="inner" style="display:none;">
+    		This is a spoiler!
+    	</div>
+	</div>
+</body>
+</html>
